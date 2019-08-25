@@ -71,7 +71,7 @@ export default {
         this.setUser(data)
         // console.log(data)
         // 跳转至首页
-        // this.$router.push('/home')
+        this.$router.push('/home')
         this.isLoginLoading = false
       } catch (err) {
         if (err.response && err.response.status === 400) {
